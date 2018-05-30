@@ -1,0 +1,4 @@
+Am folosit Express Framework si Mongo ca baza de date.
+In models am definit modelele pentru tabelele manufacturer, model si car,
+iar in controller am implementat fiecarui model functii pentru GET, POST, PUT si DELETE.
+Aceste functii sunt apelate din api, unde in caz de eroare returnez status 400 Bad Request sau json-ul respective in caz de succes. 
