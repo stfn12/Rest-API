@@ -119,7 +119,7 @@ router.get('/cars/:_id', function (req, res) {
 });
 router.post('/cars', function (req, res) {
     let car = req.body;
-    Car.addManufacturer(car, function (err, car) {
+    Car.addCar(car, function (err, car) {
         if (err) {
             return res.status(400).json('Bad request!')
         }
